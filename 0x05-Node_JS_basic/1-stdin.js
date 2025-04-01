@@ -5,8 +5,10 @@ const rl = readline.createInterface({
 	output: process.stdout
 });
 
-rl.question("Welcome to ALX, what is your name? \n", (userName) => {
+rl.question("Welcome to ALX, what is your name?\n", (userName) => {
 	console.log("Your name is: " + userName);
+
+	console.log("This important software is now closing");
 
 	rl.close();
 });
